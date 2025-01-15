@@ -9,6 +9,6 @@ public class IndexController {
 
     @GetMapping("/")
     public String indexPage(){
-        return "main/mian";
+        return "main/main";
     }
 }
